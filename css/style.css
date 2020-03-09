@@ -1,0 +1,40 @@
+* {
+    /* margin: 0%;
+    padding: 0%; */
+    color: beige;
+}
+
+a {
+    color: #ffffff;
+}
+
+
+nav.navbar {
+    padding-bottom: 4rem;
+}
+
+/* breadcrumb  */
+ol.breadcrumb {
+    background: rgb(43, 42, 42);
+}
+
+/* albums.html  */
+.img-album-cover {
+    max-width: 20%;
+    border: 0.3rem solid rgb(247, 245, 238);
+    margin: 0.3rem;
+}
+
+/* photos.html  */
+.img-photo-collection {
+    max-width: 15%;
+    /* border: 0.3rem solid rgb(199, 198, 197); */
+    margin: 0.3rem;
+
+}
+
+/* photo1.html  */
+.single-image {
+    max-width: 30%;
+    border: 0.3rem solid rgb(199, 198, 197);
+}

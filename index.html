@@ -1,0 +1,306 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/84fcda7566.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Portfolio</title>
+</head>
+<style>
+    body {
+        position: relative;
+    }
+
+    section {
+        height: 52em;
+        padding-top: 4em;
+    }
+
+    section,
+    button {
+        box-shadow: 4px 2px 5px 0 rgba(209, 203, 203, 0.15);
+    }
+
+    img {
+        box-shadow: 4px 2px 5px 0 rgba(209, 203, 203, 0.15);
+
+    }
+
+    ul.border {
+        box-shadow: 0 19px 0 0 rgba(209, 203, 203, 0.15);
+    }
+
+    .border-right {
+        border-right: 1px solid rgba(209, 203, 203, 0.15) !important;
+    }
+
+
+    /* section 1 */
+    .pop:hover {
+        background-color: rgb(43, 42, 43);
+        color: white;
+    }
+
+    .popover {
+        border-color: rgb(34, 34, 34) !important;
+    }
+
+
+    .popover-body {
+        background-color: rgb(34, 34, 34) !important;
+    }
+
+    i.fa:hover {
+        color: red !important;
+    }
+
+    /* section 2 */
+</style>
+<!-- data-spy="scroll" to the element that should be used as the scrollable area (often this is the <body> element) -->
+<!-- data-target attribute with a value of the id or the class name of the navigation bar (.navbar). This is to make sure that the navbar is connected with the scrollable area. -->
+<!-- data-offset attribute specifies the number of pixels to offset from top when calculating the position of scroll. Default is 10 pixels. -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-5 pl-5">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav border-bottom">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home"><i class="fas fa-home"></i>
+                        <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about_me"><i class="far fa-user-circle"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills"><i class="fas fa-clipboard"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects"><i class="fas fa-wrench"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pop" href="#contact" data-toggle="popover" data-trigger="hover"
+                        data-placement="right" data-html="true" data-content='<div>  
+                           <a href = "mailto:isusnavi2005@gmail.com">
+                                <i class="fas fa-3x fa-envelope pr-3"></i>
+                           </a>
+                           <a href="https://www.linkedin.com/in/rebeca-boanca/">
+                                <i class="fab fa-3x  fa-linkedin pr-3"></i>
+                            </a> 
+                           <a href="https://twitter.com/petedeculoare">
+                                <i class="fab fa-3x  fa-twitter pr-3"></i>
+                            </a>
+                           
+                        </div>'><i class="fas fa-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ********************************************************************************************************** -->
+
+    <section id="home" class="tab-pane active">
+        <div class="row mx-0 h-100">
+            <div id="col-left" class="col-sm-6 px-5 my-auto border-right">
+                <!-- <div> -->
+                <h3>Hi, I am Rebeca,<br>
+                    web developer. </h3>
+                <br>
+                <p class="lead">Frontend programmer.&nbsp; Wordpress developer.&nbsp; Freelancer.</p>
+                <button class="btn btn-outline-light pop px-5 my-5" data-toggle="popover" data-trigger="hover"
+                    data-placement="bottom" data-html="true" data-content='<div class="ml-1">  
+                           <a href = "mailto:isusnavi2005@gmail.com">
+                                <i class="fas fa-2x fa-envelope pl-2 pr-3"></i>
+                           </a>
+                           <a href="https://www.linkedin.com/in/rebeca-boanca/">
+                                <i class="fab fa-2x  fa-linkedin pr-3"></i>
+                            </a> 
+                           <a href="https://twitter.com/petedeculoare">
+                                <i class="fab fa-2x  fa-twitter pr-3"></i>
+                            </a>
+                           
+                        </div>'>
+                    Let's talk
+                </button>
+                <!-- </div> -->
+            </div>
+            <div id="col-right" class="col-sm-6">
+                <div class="container mx-auto">
+                    <div class="row ml-xl-0 ml-sm-3">
+                        <div class="col-xs-12 col-md-4 text-center">
+                            <img src="./images/about_me.png" alt="" height="173" style="border-radius: 55%;">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-md-4 offset-md-7 text-center">
+                            <img src="./images/my_work.png" alt="" height="173" style="border-radius: 55%;">
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="row">
+                        <div class="col-xs-12 offset-md-3 col-md-4 text-center">
+                            <img class="" src="./images/skills.png" alt="" height="173" style="border-radius: 55%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ********************************************************************************************************** -->
+
+    <section id="about_me">
+        <div class="row mx-0">
+            <div id="col-left" class="col-sm-6 px-5 pt-5">
+                <h3>About me</h3>
+                <br>
+                <p>Well-organised person, problem solver, independent employee with high attention to detail. Fan of
+                    MMA, outdoor activities, TV series and, recently, English literature. A family person, father of two
+                    fractious boys, therefore remote employment is preferred.</p>
+                <p>Interested in the entire frontend spectrum and working on ambitious projects with positive people.
+                </p>
+            </div>
+            <div id="col-right" class="col-sm-6">
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ********************************************************************************************************** -->
+
+    <section id="skills">
+        <div class="row mx-0 h-100">
+            <div id="col-left" class="col-sm-6 px-5 pt-5">
+                <div class="container text-center">
+                    <div class="row h-50 w-75">
+                        <div class="col-sm-4 py-5 border">Angular</div>
+                        <div class="col-sm-4 py-5 border">Bootstrap</div>
+                        <div class="col-sm-4 py-5 border">CSS</div>
+                        <div class="col-sm-4 py-5 border">HTML</div>
+                        <div class="col-sm-4 py-5 border">SASS</div>
+                        <div class="col-sm-4 py-5 border">WordPress</div>
+                        <div class="col-sm-4 py-5 border">Typescript</div>
+                        <div class="col-sm-4 py-5 border">JavaScript</div>
+                        <div class="col-sm-4 py-5 border">Git</div>
+                    </div>
+                </div>
+            </div>
+            <div id="col-right" class="col-sm-6 pt-5 px-5">
+
+                <h3>Skills</h3>
+                <br>
+                <p>The main area of my expertise is front end development (client side of the web).</p>
+                <p>HTML, CSS, JS (TypeScript), building small and medium web apps with Angular 2+, animations, and
+                    coding interactive layouts.</p>
+                <p>I have also developer experience with buiding elegant websites using WordPress.</p>
+                <p>Visit my LinkedIn profile for more details or just contact me.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ********************************************************************************************************** -->
+
+    <section id="projects">
+        <div class="row mx-0 h-100">
+            <div class=" w-100 px-5 pt-5 justify-content-between">
+                <h3>My projects</h3>
+                <br>
+                <div class="d-lg-flex justify-content-around pt-5 mx-0">
+                    <div class="pr-sm-4">
+                        <img src="./images/p1.png" class="img-fluid" alt="" style="border-radius: 54%;">
+                    </div>
+                    <div class="pr-sm-4">
+                        <img src="./images/p2.png" class="img-fluid" alt="" style="border-radius: 54%;">
+                    </div>
+                    <div class="pr-sm-4">
+                        <img src="./images/p3.png" class="img-fluid" alt="" style="border-radius: 54%;">
+                    </div>
+                    <div class="pr-sm-4">
+                        <img src="./images/p4.png" class="img-fluid" alt="" style="border-radius: 54%;">
+                    </div>
+                    <div>
+                        <img src="./images/p1.png" class="img-fluid" alt="" style="border-radius: 54%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ********************************************************************************************************** -->
+
+    <!-- <section id="contact" style="height:40em;">
+        <div class="row mx-0 h-100">
+            <div class=" w-100 px-5 pt-5 justify-content-between">
+                <h3>Get in touch</h3>
+                <br>
+                <div class="d-lg-flex justify-content-around py-3 mx-0">
+                    <a href="mailto:isusnavi2005@gmail.com">
+                        <i class="fas fa-2x fa-envelope pl-2 pr-3"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rebeca-boanca/">
+                        <i class="fab fa-2x  fa-linkedin pr-3"></i>
+                    </a>
+                    <a href="https://twitter.com/petedeculoare">
+                        <i class="fab fa-2x  fa-twitter pr-3"></i>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+
+
+    </section> -->
+
+    <!-- ********************************************************************************************************** -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+
+    <script src="./js/bootstrap.min.js"></script>
+
+
+    <!-- <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover({
+                placement: 'bottom',
+                trigger: 'click'
+            });
+        });
+    </script> -->
+    <script>
+        $(".pop").popover({
+                trigger: "manual",
+                html: true,
+                animation: false
+            })
+            .on("mouseenter", function () {
+                var _this = this;
+                $(this).popover("show");
+                $(".popover").on("mouseleave", function () {
+                    $(_this).popover('hide');
+                });
+            }).on("mouseleave", function () {
+                var _this = this;
+                setTimeout(function () {
+                    if (!$(".popover:hover").length) {
+                        $(_this).popover("hide");
+                    }
+                }, 300);
+            });
+    </script>
+</body>
+
+</html>
