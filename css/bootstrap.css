@@ -176,16 +176,17 @@ sup {
     top: -.5em
 }
 
+
 a {
-    color: #00bc8c;
+    /* color: #00bc8c; */
     text-decoration: none;
-    background-color: transparent
+    background-color: transparent;
 }
 
-a:hover {
+/* a:hover {
     color: #007053;
     text-decoration: underline
-}
+} */
 
 a:not([href]) {
     color: inherit;
@@ -7813,23 +7814,23 @@ button.bg-dark:focus {
 }
 
 .border {
-    border: 1px solid #dee2e6 !important
+    border: 0.09em solid rgba(173, 172, 172, 0.15) !important
 }
 
 .border-top {
-    border-top: 1px solid #dee2e6 !important
+    border-top: 0.09em solid rgba(173, 172, 172, 0.15) !important
 }
 
 .border-right {
-    border-right: 1px solid #dee2e6 !important
+    border-right: 0.09em solid rgba(173, 172, 172, 0.15) !important
 }
 
 .border-bottom {
-    border-bottom: 1px solid #dee2e6 !important
+    border-bottom: 0.09em solid rgba(173, 172, 172, 0.15) !important
 }
 
 .border-left {
-    border-left: 1px solid #dee2e6 !important
+    border-left: 0.09em solid rgba(173, 172, 172, 0.15) !important
 }
 
 .border-0 {
