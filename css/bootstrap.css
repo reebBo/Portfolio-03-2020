@@ -7817,6 +7817,7 @@ button.bg-dark:focus {
     border: 0.09em solid rgba(173, 172, 172, 0.15) !important
 }
 
+/* 
 .border-top {
     border-top: 0.09em solid rgba(173, 172, 172, 0.15) !important
 }
@@ -7831,7 +7832,7 @@ button.bg-dark:focus {
 
 .border-left {
     border-left: 0.09em solid rgba(173, 172, 172, 0.15) !important
-}
+} */
 
 .border-0 {
     border: 0 !important
